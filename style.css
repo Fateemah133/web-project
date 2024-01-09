@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(89, 9, 9);
+}
+header{
+    background-color: rgb(89, 9, 9);
+    border-bottom: 5px solid black;
+    z-index: 50rem;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.sub-head{
+
+}
+.sect-sect{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    background-image: url('image/img1.jpg');
+    opacity: 85%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: Tahoma;
+    color:white;
+    text-align: center;
+}
+.scroll{
+   font-family: arial;
+   color:white;
+   text-align: center;
+   text-decoration: italic;
+}
+.image{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    position: absolute;
+ 
+    
+}
+.sub-image{
+    width: 40%;
+    height: 70%;
+    position: relative;
+}
+.sub-image2{
+    width: 40%;
+    height: 70%;
+    position: relative;
+}
+.sub-sectimage{
+    width: 100%;
+    height: 60%;
+   background-image: url('image/img3.jpg');
+}
+.sub-sectimage2{
+    width: 100%;
+    height: 60%;
+    background-image: url('image/img4.jpg');
+}
+.sub-sectimage3{
+    width: 100%;
+    height: 60%;
+    background-image: url('image/img5.jpg');
+}
+.sub-sectimage4{
+    width: 100%;
+    height: 60%;
+    background-image: url('image/img2.jpg');
+}
+footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 5%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
